@@ -10,6 +10,7 @@ header{
     padding-left: 200px;
     padding-right: 200px;
     font-size: 24px;
+    margin-bottom: 145px;
 }
 nav>ul>li{
     display:inline;
@@ -27,6 +28,7 @@ nav>ul>li>a{
     display: flex;
     padding-left: 200px;
     padding-right: 200px;
+    margin-bottom: 170px;
 }
 h1{
     font-size: 52px;
@@ -44,6 +46,13 @@ p{
     padding: 10px 24px;
     border-radius: 41px;
 }
+.link-button:hover{
+    background-color: rgb(141, 92, 0);
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+
 /* First Section end */
 
 /* Second Section Start */
@@ -60,8 +69,8 @@ p{
     margin-top: 69px;
     margin-left: 200px;
     margin-right: 200px;
-    background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);;
-
+    margin-bottom: 100px;
+    background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }
 /* Second Section end */
 
@@ -72,12 +81,15 @@ p{
     border-radius: 5px;
     padding-top: 28px;
     padding-left: 28px;
+    margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     width: 329px;
     height: 476px;
 }
 h2{
     text-align: center;
+    font-size: 28px;
+    font-weight: 600;
 }
 h4{
     margin-top: 1rem;
@@ -122,4 +134,74 @@ h5{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 200px;
+    margin-top: 50px;
+}
+.seemore-button{
+    color:#E02C6D;
+    text-decoration: none;
+    font-size: 16;
+    font-weight: 700;
+}
+.seemore-button:hover{
+    color: rgb(141, 92, 0);;
+}
+.seemore{
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/* Third Section end */
+
+/* 4th Section Start  */
+.section-four{
+    padding-bottom: 200px;
+}
+h6{
+    font-size: 50px;
+}
+.join-info{
+    margin-top:  -6rem;
+}
+.join-button{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.join-button:hover{
+    background-color: rgb(141, 92, 0);
+}
+.join-team{
+    text-align: center;
+
+}
+/* 4th Section end  */
+
+/* footer start  */
+footer{
+    background-color: #0A0826;
+    padding-bottom: 50px;
+    padding-top:1px;
+}
+.footer-title{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+footer p{
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+footer a{
+    color: #777786;
+    padding-left: 23px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
 }
